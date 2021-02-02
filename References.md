@@ -9,4 +9,5 @@
 -	Interactive explanation of [Central Limit Theorem](http://mfviz.com/central-limit/)
 -	[Maximum likelihood](https://arxiv.org/pdf/0804.2996.pdf)
 
-xxxxxxx
+xxxxxxxx
+xxxxxx
