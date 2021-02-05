@@ -36,11 +36,11 @@
 
 - [Lecture on IMUs](http://stanford.edu/class/ee267/lectures/lecture9.pdf)
 - Chapter 11, Section 1 of [Jay A. Farrell, Aided Navigation (2008)](https://books.google.ca/books/about/Aided_Navigation_GPS_with_High_Rate_Sens.html?id=yNujEvIMszYC&redir_esc=y)
-- [Article](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.616.1248)
+- [This article](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.616.1248)
 
 ### GNSS
 
-- [Article](https://www.geospatialworld.net/article/global-navigation-satellite-system-gnss/)
+- [This article](https://www.geospatialworld.net/article/global-navigation-satellite-system-gnss/)
 - Review overviews of the [Galileo](https://m.esa.int/Our_Activities/Navigation/Galileo/Galileo_satellites) global navigation satellite system developed by the European Union, the [GLONASS](https://gssc.esa.int/navipedia/index.php/GLONASS_General_Introduction) system developed by the Russian Federation, and [COMPASS (BeiDou-2)](https://en.wikipedia.org/wiki/BeiDou) developed by the People's Republic of China.
 
 ## LiDAR Sensing
@@ -190,13 +190,19 @@
 
 ## Principles of Behaviour Planning
 
-
+- J. Wei, J. M. Snider, T. Gu, J. M. Dolan, and B. Litkouhi, “A behavioral planning framework for autonomous driving,” 2014 IEEE Intelligent Vehicles Symposium Proceedings, 2014. This gives a nice overview of an example framework that can be used in behaviour planning.
+- R. S. Sutton and A. G. Barto, Reinforcement learning an introduction. Cambridge: A Bradford Book, 1998. Gives a great introduction to reinforcement learning concepts.
 
 ## Reactive Planning in Static Environments
 
-
+- Fox, D.; Burgard, W.; Thrun, S. (1997). "The dynamic window approach to collision avoidance". Robotics & Automation Magazine, IEEE. 4 (1): 23–33. doi:10.1109/100.580977. This gives an overview of dynamic windowing and trajectory rollout.
+- M. Pivtoraiko, R. A. Knepper, and A. Kelly, “Differentially constrained mobile robot motion planning in state lattices,” Journal of Field Robotics, vol. 26, no. 3, pp. 308–333, 2009. This paper is a great resource for generating state lattices under kinematic constraints.
 
 ## Putting it all together - Smooth Local Planning
+
+- A. Kelly and B. Nagy, “Reactive Nonholonomic Trajectory Generation via Parametric Optimal Control,” The International Journal of Robotics Research, vol. 22, no. 7, pp. 583–601, 2003. This paper discusses the math behind generating spirals to desired terminal states.
+- A. Piazzi and C. G. L. Bianco, “Quintic G/sup 2/-splines for trajectory planning of autonomous vehicles,” Proceedings of the IEEE Intelligent Vehicles Symposium 2000 (Cat. No.00TH8511). This paper discusses the math behind generating quintic splines to desired terminal states.
+- M. Mcnaughton, C. Urmson, J. M. Dolan, and J.-W. Lee, “Motion planning for autonomous driving with a conformal spatiotemporal lattice,” 2011 IEEE International Conference on Robotics and Automation, 2011. This paper introduces the concepts behind generating a conformal spatiotemporal lattice for on-road motion planning.
 
 
 
