@@ -4,7 +4,7 @@ This repo contains a comprehensive report about the field of mobile robotics. Th
 
 ## Literature review
 
-This part surveys books, articles, blog posts, and tutorials about mobile robotics. You can refer to this literature review to find the specific learning materials available online, dive into the subfileds (such as motion planning), and figure out the techinical details.
+This part surveys books, articles, blog posts, and tutorials about mobile robotics. You can refer to this literature review in `References.md` to find the specific learning materials available online, dive into the subfileds (such as motion planning), and figure out the techinical details.
 
 ## Slides-based demonstration
 
