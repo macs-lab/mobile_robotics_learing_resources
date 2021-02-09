@@ -1,3 +1,53 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [State estimation and localization](#state-estimation-and-localization)
+  - [Basics: Least Square](#basics-least-square)
+  - [Linear and Nonlinear Kalman Filters](#linear-and-nonlinear-kalman-filters)
+    - [Linear Kalman filter](#linear-kalman-filter)
+    - [Nonlinear Kalman filter](#nonlinear-kalman-filter)
+  - [GNSS/INS Sensing for Pose Estimation](#gnssins-sensing-for-pose-estimation)
+    - [3D Geometry and Reference Frames](#3d-geometry-and-reference-frames)
+    - [IMU](#imu)
+    - [GNSS](#gnss)
+  - [LiDAR Sensing](#lidar-sensing)
+    - [Light Detection and Ranging Sensors](#light-detection-and-ranging-sensors)
+    - [LIDAR Sensor Models and Point Clouds](#lidar-sensor-models-and-point-clouds)
+    - [Pose Estimation from LIDAR Data](#pose-estimation-from-lidar-data)
+  - [Multisensor Fusion for State Estimation](#multisensor-fusion-for-state-estimation)
+  - [Sensor Calibration](#sensor-calibration)
+- [Visual Perception](#visual-perception)
+  - [Basics of 3D Computer Vision](#basics-of-3d-computer-vision)
+    - [The Camera Sensor](#the-camera-sensor)
+    - [Camera Calibration](#camera-calibration)
+    - [Visual Depth Perception](#visual-depth-perception)
+    - [Image Filtering](#image-filtering)
+  - [Visual Features - Detection, Description and Matching](#visual-features---detection-description-and-matching)
+    - [Feature Detectors and Descriptors](#feature-detectors-and-descriptors)
+    - [Feature Matching](#feature-matching)
+    - [Outlier Rejection](#outlier-rejection)
+  - [Feedforward Neural Networks](#feedforward-neural-networks)
+  - [2D Object Detection](#2d-object-detection)
+    - [The Object Detection Problem](#the-object-detection-problem)
+    - [2D Object detection with Convolutional Neural Networks](#2d-object-detection-with-convolutional-neural-networks)
+    - [Training vs. Inference](#training-vs-inference)
+    - [Using 2D Object Detectors for Self-Driving Cars](#using-2d-object-detectors-for-self-driving-cars)
+  - [Semantic Segmentation](#semantic-segmentation)
+    - [The Semantic Segmentation Problem](#the-semantic-segmentation-problem)
+    - [ConvNets for Semantic Segmentation](#convnets-for-semantic-segmentation)
+    - [Semantic Segmentation for Road Scene Understanding](#semantic-segmentation-for-road-scene-understanding)
+- [Motion Planning](#motion-planning)
+  - [The Planning Problem](#the-planning-problem)
+  - [Mapping for Planning](#mapping-for-planning)
+  - [Mission Planning in Driving Environments](#mission-planning-in-driving-environments)
+  - [Dynamic Object Interactions](#dynamic-object-interactions)
+  - [Principles of Behaviour Planning](#principles-of-behaviour-planning)
+  - [Reactive Planning in Static Environments](#reactive-planning-in-static-environments)
+  - [Putting it all together - Smooth Local Planning](#putting-it-all-together---smooth-local-planning)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # State estimation and localization
 
 ## Basics: Least Square
